@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        "bg_image": 'url("/src/assets/herobg.jpg")',
+        "secondBg": 'url("/src/assets/heroimg4.jpg")'
+      },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
